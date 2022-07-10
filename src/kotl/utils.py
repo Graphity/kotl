@@ -13,7 +13,7 @@ def json_to_xresources(theme):
     output_path = os.path.join(CACHE_DIR, theme_name)
 
     if os.path.exists(output_path):
-        return
+        return output_path
 
     with open(theme_path) as f:
         theme = json.load(f)
