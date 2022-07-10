@@ -12,5 +12,5 @@ Options:
 
 ## Installation
 ```console
-pip install kotl
+pip install kotl-ignis
 ```
