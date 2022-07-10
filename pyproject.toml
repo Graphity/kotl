@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kotl"
+version = "0.1.0"
+authors = [
+  { name="Graphity" },
+]
+description = "Change color-schemes"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+dependencies = [
+	"click",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Graphity/kotl"
+"Bug Tracker" = "https://github.com/Graphity/kotl/issues"
+
+[project.scripts]
+kotl = "kotl.__main__:kotl"
