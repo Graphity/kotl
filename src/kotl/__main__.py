@@ -5,8 +5,8 @@ import json
 import os
 import subprocess
 
-from settings import THEMES_DIR
-from utils import json_to_xresources
+from .settings import THEMES_DIR
+from .utils import json_to_xresources
 
 @click.command()
 @click.argument('theme', required=False)

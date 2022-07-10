@@ -1,7 +1,7 @@
 import json
 import os
 
-from settings import CACHE_DIR, THEMES_DIR
+from .settings import CACHE_DIR, THEMES_DIR
 
 
 def json_to_xresources(theme):
