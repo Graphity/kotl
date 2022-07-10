@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kotl"
+name = "kotl-ignis"
 version = "0.1.0"
 authors = [
   { name="Graphity" },
@@ -26,4 +26,4 @@ classifiers = [
 "Bug Tracker" = "https://github.com/Graphity/kotl/issues"
 
 [project.scripts]
-kotl = "kotl.__main__:kotl"
+kotl = "kotl_ignis.__main__:kotl"
