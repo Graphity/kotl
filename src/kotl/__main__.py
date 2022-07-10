@@ -24,7 +24,3 @@ def kotl(theme, list_themes):
     elif list_themes:
         for theme in themes:
             print(os.path.splitext(theme)[0])
-
-
-if __name__ == '__main__':
-    kotl()
