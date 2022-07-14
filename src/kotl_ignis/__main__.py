@@ -33,4 +33,4 @@ def kotl(theme, list_themes, reverse):
         ]
         for path in xresources_paths:
             if os.path.exists(path):
-                subprocess.run(['xrdb', path])
+                subprocess.run(['xrdb', '-merge', path])
